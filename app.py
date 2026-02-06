@@ -2,7 +2,8 @@ import streamlit as st
 from pathlib import Path
 
 st.title("Hello garymade-Cursor Vibe")
-st.write("This is a test of the streamlit app")
+st.write("Creating a Streamlit App using Cursor AI")
+
 
 if "menu_index" not in st.session_state:
     st.session_state.menu_index = None
